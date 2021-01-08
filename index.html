@@ -1,149 +1,287 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
-<body class="w3-light-grey">
+<html style="overflow: auto;">
 
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
+<head>
+    <title>Max Bridgland | Software Engineer and Entrepreneur</title>
+    <script data-ad-client="ca-pub-9279253230674491" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Developer and QA Engineer">
+    <meta name="keywords" content="max bridgland, max, bridgland, max bridgland repo, max bridgeland, bridge land, bridgeland, ios development, ios tweaks, securarepo, opendebs"
+    <meta charset="UTF-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src='assets/js/sticky.js'></script>
+    <script src="assets/js/nav.js"></script>
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="shortcut icon" href="https://cdn.maxbridgland.com/personal/logo-s.png">
+</head>
 
-<!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>MY BLOG</b></h1>
-  <p>Welcome to the blog of <span class="w3-tag">unknown</span></p>
-</header>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://maxbridgland.com">
+                <img class="main-img" src="https://cdn.maxbridgland.com/personal/logo-m.png" height="28">
+            </a>
 
-<!-- Grid -->
-<div class="w3-row">
-
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
-    <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item active" href="#">
+                    <i class="fa fa-home" style="margin-right: 5px;"></i> Home
+                </a>
+                <a class="navbar-item" href="#projects">
+                    <i class="fa fa-pen" style="margin-right: 5px;"></i> Projects
+                </a>
+                <a class="navbar-item" href="https://blog.maxbridgland.com/">
+                    <i class="far fa-newspaper" style="margin-right: 5px;"></i> Blog
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                       <i class="fa fa-star" style="margin-right: 5px;"></i> More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="#about">
+                           <i class="fa fa-book" style="margin-right: 5px;"></i> About
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="#socials">
+                           <i class="fa fa-mobile" style="margin-right: 5px;"></i> Socials
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="/cdn-cgi/l/email-protection#e9c6c684888b9b808d8e8588878da9999b869d868784888085c78a8684">
+                           <i class="fa fa-envelope" style="margin-right: 5px;"></i> Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="https://paypal.me/maxbridgland" target="_blank">
+                            <i class="fa fa-money-bill-wave" style="margin-right: 5px;"></i> Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
-    <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+    </nav>
+    <section class="hero is-dark is-bold">
+        <div class="hero-header" style='background-image: url("https://cdn.maxbridgland.com/personal/banner.png")'>
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title" style="color: white">
+                        Welcome To My Site
+                    </h1>
+                    <h2 class="subtitle" style="color: white">
+                        Here you can find my projects, information about me, how to contact me, and possibly other things as I grow as a developer.
+                    </h2>
+                </div>
+            </div>
         </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+    </section>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img class="main-img" src="https://cdn.maxbridgland.com/personal/logo-m.png" alt="Max Bridgland">
+                        </figure>
+                    </div>
+                    <div class="media-content" style="overflow: hidden">
+                        <p class="title is-4">Max Bridgland</p>
+                        <p class="subtitle is-5">Boston MA</p>
+                        <p class="subtitle is-6">QA Automation Engineer, iOS Developer, and lover of all things Python.</p>
+                        <div class="buttons">
+                            <a class="button is-info is-rounded" target="_blank" href="https://twitter.com/maxbridgland"><i class="fab fa-twitter"></i></a>
+                            <a class="button is-dark is-rounded" target="_blank" href="https://github.com/M4cs"><i class="fab fa-github"></i></a>
+                            <a class="button is-link is-rounded" target="_blank" href="https://linkedin.com/in/maxbridgland"><i class="fab fa-linkedin"></i></a>
+                            <a class="button is-warning is-rounded" target="_blank" href="https://paypal.me/maxbridgland"><i class="fab fa-paypal"></i></a>
+                            <a class="button is-primary is-rounded" target="_blank" href="/cdn-cgi/l/email-protection#2d0202404c4f5f44494a414c43496d5d5f42594243404c4441034e4240"><i class="fa fa-envelope" style="margin-right: 5px;"></i>Send Me An E-Mail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h1 align="center" class="title" id="about">About Me<br><i class="fa fa-book" style="margin-right: 5px;"></i></h1>
+                    <hr>
+                    <h3 class="subtitle">I'm a software developer with an interest in just about anything. I'm constantly making new projects and ventures to fuel my craving for creativity and innovation. Currently I'm working at a startup out of Boston called Reggora. We have the goal of automating the appraisal process for lenders and appraisers in the market. I started there in Februrary of 2019 and I am loving it so far. I have worked for hours getting us setup with a cleaner code base, writing and running tests, manually trying to break just about everything, and more.</h3>
+                    <h3 class="subtitle">I started programming because I wanted to make tweaks for my jailbroken iPhone. The community at the time was full of new developers which I think helped me get a move along since everybody was willing to help each other. Now adays I'm still pretty active in the jailbreak community but not nearly as much as I was a few years ago. I still run a private repository and develop tweaks/themes for jailbroken iDevices. You can find my work on multiple repositories including OpenDebs, SecuraRepo, Auxilium, and Packix. I don't plan on making a big come back or getting too deep into developing tweaks but I will always love and stay interested in the jailbreaking scene.</h3>
+                    <h3 class="subtitle">Python is my language of choice when it comes to programming but I have skills in multiple other languages/environments. At work I am constantly working with JavaScript, React, and Python. While at home I often work with Python, Objective-C, Swift, JavaScript, Ruby, and Perl. I have experience not only as a software developer but as a penetration tester and security professional. For years I have always been fascinated by the cyber-security field and took it upon myself to get into the community and the culture. From this BabySploit, DarkSpiritz, and a few other hacking projects were born which I had worked on a lot until I got my job.</h3>
+                    <h3 class="subtitle">Below you can see my projects that I'm proudest of, my acheivements and skills, and my links to social media and what not.</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 align="center" class="title" id="projects">Accomplishments<br><i class="fa fa-star" style="margin-right: 5px;"></i></h1>
+                    <hr>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media-content" style="overflow: hidden">
+                                        <p class="title is-4">Started My Career</p>
+                                        <p class="subtitle is-6">QA Automation Engineer at <a href="https://reggora.com" target="_blank">Reggora</a> at the age of 18. I am responsible for writing tests and finding bugs on our platform.</p>
+                                        <p class="subtitle is-6">Feb 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media-content" style="overflow: hidden">
+                                        <p class="title is-4">BabySploit Featured</p>
+                                        <p class="subtitle is-6">My project <a href="https://github.com/M4cs/BabySploit" target="_blank">BabySploit</a> was featured on countless blogs, such as <a href="https://twitter.com/thehackersnews/status/1063793112475205632" target="_blank">TheHackerNews</a> and <a href="https://www.kitploit.com/2018/11/babysploit-babysplot-beginner.html" target="_blank">KitPloit</a>.</p>
+                                        <p class="subtitle is-6">Nov 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media-content" style="overflow: hidden">
+                                        <p class="title is-4">Python</p>
+                                        <p class="subtitle is-6">I have written countless projects in python at this point and I feel like I'm at a stage in my python career that I have it down. I can do basically anything with it so long as there is some documentation for me to follow. I have created multiple backends and REST APIs in it, worked with databases, scientific mathematics, and much more. I am currently diving into the world of AI and Machine Learning as I feel that's where a lot of cool stuff is going to be emerging from in the next 10 years.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media-content" style="overflow: hidden">
+                                        <p class="title is-4">iOS Development</p>
+                                        <p class="subtitle is-6">I have written quite a few tweaks and ran a few development teams for iOS tweaks. They were all pretty successful and I learned a lot from the others involved but personally I think I work on side projects better alone most of the time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <h1 align="center" class="title" id="projects">Projects<br><i class="fa fa-pen" style="margin-right: 5px;"></i></h1>
+                    <hr>
+                    <div class="columns">
+                            <div class="column">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <a href="https://macthemes.co" style="color: #363636">
+                                                <p class=" heading">MacThemes</p>
+                                                <p class="title is-6">Customizable Themeing Platform for MacOS</p>
+                                                <p class="title is-6">2019</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <a href="https://psty.io" style="color: #363636">
+                                        <p class="heading">psty.io</p>
+                                        <p class="title is-6">Source Code Sharing Platform</p>
+                                        <p class="title is-6">2019</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <a href="https://opendebs.com" style="color: #363636">
+                                        <p class="heading">OpenDebs</p>
+                                        <p class="title is-6">Free Public APT Package Hosting</p>
+                                        <p class="title is-6">2019</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-content">
+                                    <a href="https://securarepo.io" style="color: #363636">
+                                        <p class=" heading">SecuraRepo</p>
+                                        <p class="title is-6">Private APT Package Hosting</p>
+                                        <p class="title is-6">2019</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <h1 align="center" class="title" id="socials">Social Links<br><i class="fa fa-users" style="margin-right: 5px;"></i></h1>
+                    <hr>
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <center>
+                                            <a href="https://twitter.com/maxbridgland" style="color: #363636"><i class="fab fa-twitter" style="font-size: 50px;"></i></a>
+                                            <h1 class="title is-5">Twitter</h1>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <center>
+                                            <a href="https://linkedin.com/in/maxbridgland" style="color: #363636"><i class="fab fa-linkedin" style="font-size: 50px;"></i></a>
+                                            <h1 class="title is-5">LinkedIn</h1>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <center>
+                                            <a href="https://github.com/M4cs" style="color: #363636"><i class="fab fa-github" style="font-size: 50px;"></i></a>
+                                            <h1 class="title is-5">GitHub</h1>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <center>
+                                            <a href="https://reddit.com/u/maxbridgland" style="color: #363636"><i class="fab fa-reddit" style="font-size: 50px;"></i></a>
+                                            <h1 class="title is-5">Reddit</h1>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <center>
+                                            <a href="https://discordapp.com/invite/7VN9VZe" style="color: #363636"><i class="fab fa-discord" style="font-size: 50px;"></i></a>
+                                            <h1 class="title is-5">Discord</h1>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-      <h4><b>My Name</b></h4>
-      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-    </div>
-  </div><hr>
-  
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Popular Posts</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Lorem</span><br>
-        <span>Sed mattis nunc</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Ipsum</span><br>
-        <span>Praes tinci sed</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Dorum</span><br>
-        <span>Ultricies congue</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Mingsum</span><br>
-        <span>Lorem ipsum dipsum</span>
-      </li>  
-    </ul>
-  </div>
-  <hr> 
- 
-  <!-- Labels / tags -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p>
-    </div>
-  </div>
-  
-<!-- END Introduction Menu -->
-</div>
-
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-
-</body>
+    <footer style="margin: 30px;" align="center">
+        <p class="header is-7">Copyright 2019 &copy; | Made with <i class="fa fa-heart"></i> by Max</p>
+    </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
-
